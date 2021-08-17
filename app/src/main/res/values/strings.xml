@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ThomasPrinter</string>
+    <string name="obtain">获取蓝牙设备</string>
+    <string name="connect">连接</string>
+    <string name="send">发送数据</string>
+    <string name="cancel_observe">取消监听打印机状态</string>
+    <string name="confirm">确定</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_margin="16dp"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/obtain"
+            android:onClick="onObtainClick"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_connect"
+            android:layout_margin="16dp"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/connect"
+            android:onClick="onConnectClick"/>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_margin="16dp"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/send"
+            android:onClick="onSendClick"/>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_margin="16dp"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel_observe"
+            android:onClick="onCancelObserveClick"/>
+
+    </LinearLayout>
+</layout>
