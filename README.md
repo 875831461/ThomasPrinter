@@ -23,7 +23,7 @@ Bluetooth Thermal Printer For Android
 ```java
       connectBluetoothDevice(Context context, String address)
 ```
-  2. if you want to auto connect when device online and device offline notice to you please use:
+  2. normal connect method:
 ```java
        connectBluetoothDevice(String address)
 ```
