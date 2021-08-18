@@ -2,7 +2,8 @@ ThomasPrinter
 ====
 Bluetooth Thermal Printer For Android
 -------
-![](http://photocq.photo.store.qq.com/psc?/V12Wa3Ul4PEo0g/jkqgNxaPJb7RsklupiKoXbvsqI13FZVRI5eBTK1Z6.LFL6E.2Co2ikxdWdI.q9ZxRIyQMUC55I1FIrPwTX9uwD73TqaU4xx2.gUjAYKsYeI!/b&bo=ZABkAGQAZAADGD0!&rf=viewer_4)
+![](https://m.qpic.cn/psc?/V12Wa3Ul4PEo0g/45NBuzDIW489QBoVep5mcQMxHQFIyWiSpXc6J1etK8STPNY1OChohDnc1K.RajEca2wl99BfCpntO7Z*Qnxtzo37rByZPmoIDovww3GTYVc!/b&bo=QAZVCMAP0AsBGTE!&rf=viewer_4)
+![](https://m.qpic.cn/psc?/V12Wa3Ul4PEo0g/45NBuzDIW489QBoVep5mcSAcZxGHTxeEaMSHLc3DtKakMuDKDjNsVNgEo903cbsn9o02Uken34UYZaycu4wgbxes1PKYWk6VRP9Ip*qedfA!/b&bo=QAZVCMAP0AsBGTE!&rf=viewer_4)
 # Need permission
 
 ```java
@@ -14,9 +15,9 @@ Bluetooth Thermal Printer For Android
 ## How to connect bluetooth
 
   1. if you want to auto connect when device online and device offline notice to you please use:
+      (sometimes is connect failed,so I don't recommend it)
 ```java
       connectBluetoothDevice(Context context, String address)
-      (sometimes is connect failed,so I don't recommend it)
 ```
   2. if you want to auto connect when device online and device offline notice to you please use:
 ```java
