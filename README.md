@@ -10,18 +10,18 @@ Bluetooth Thermal Printer For Android
   <uses-permission android:name="android.permission.BLUETOOTH" />
   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
   <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-
+    ```
 # How to connect bluetooth
 
   1. if you want to auto connect when device online and device offline notice to you please use:
       ```Java
       connectBluetoothDevice(Context context, String address)
       (sometimes is connect failed,so I don't recommend it)
-
+      ```
   2. if you want to auto connect when device online and device offline notice to you please use:
       ```Java
        connectBluetoothDevice(String address)
-
+      ```
 
 # How to setting page
 
