@@ -2,8 +2,12 @@ ThomasPrinter
 ====
 Bluetooth Thermal Printer For Android
 -------
-![](https://m.qpic.cn/psc?/V12Wa3Ul4PEo0g/45NBuzDIW489QBoVep5mcQMxHQFIyWiSpXc6J1etK8STPNY1OChohDnc1K.RajEca2wl99BfCpntO7Z*Qnxtzo37rByZPmoIDovww3GTYVc!/b&bo=QAZVCMAP0AsBGTE!&rf=viewer_4)
-![](https://m.qpic.cn/psc?/V12Wa3Ul4PEo0g/45NBuzDIW489QBoVep5mcSAcZxGHTxeEaMSHLc3DtKakMuDKDjNsVNgEo903cbsn9o02Uken34UYZaycu4wgbxes1PKYWk6VRP9Ip*qedfA!/b&bo=QAZVCMAP0AsBGTE!&rf=viewer_4)
+
+# 80
+![](http://m.qpic.cn/psc?/V12Wa3Ul4PEo0g/45NBuzDIW489QBoVep5mcQMxHQFIyWiSpXc6J1etK8STPNY1OChohDnc1K.RajEca2wl99BfCpntO7Z*Qnxtzo37rByZPmoIDovww3GTYVc!/b&bo=QAZVCMAP0AsBGTE!&rf=viewer_4)
+
+# 58
+![](http://m.qpic.cn/psc?/V12Wa3Ul4PEo0g/45NBuzDIW489QBoVep5mcSAcZxGHTxeEaMSHLc3DtKakMuDKDjNsVNgEo903cbsn9o02Uken34UYZaycu4wgbxes1PKYWk6VRP9Ip*qedfA!/b&bo=QAZVCMAP0AsBGTE!&rf=viewer_4)
 # Need permission
 
 ```java
