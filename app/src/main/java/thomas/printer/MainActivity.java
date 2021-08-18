@@ -43,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
                 String[] permission = new String[]{
                         Manifest.permission.ACCESS_FINE_LOCATION
                 };
-                //aaa
                 requestPermissions(permission, 11);
             }
         }
@@ -77,5 +76,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void onCancelObserveClick(View view) {
         ThomasPrinterManage.getInstance().unregisterOnThomasPrinterChangeListener(mPrinterChangeListener);
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        ThomasPrinterManage.getInstance().stopThreadPool();
     }
 }
