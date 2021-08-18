@@ -5,4 +5,12 @@
     <string name="send">发送数据</string>
     <string name="cancel_observe">取消监听打印机状态</string>
     <string name="confirm">确定</string>
+    <string name="connecting">连接中</string>
+    <string name="disconnect">连接断开</string>
+    <string name="connected">连接成功/已连接</string>
+    <string name="connect_failed">连接失败</string>
+    <string name="address_error">地址错误</string>
+    <string name="no_device">无任何连接设备</string>
+    <string name="send_success">发送成功</string>
+    <string name="send_failed">发送失败</string>
 </resources>

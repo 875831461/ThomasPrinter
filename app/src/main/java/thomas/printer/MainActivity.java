@@ -15,7 +15,6 @@ import android.graphics.BitmapFactory;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
 
 import com.thomas.ThermalPrinter;
 import com.thomas.ThomasPrinterManage;
@@ -44,21 +43,28 @@ public class MainActivity extends AppCompatActivity {
         public void onThomasPrinterChanged(@Nullable BluetoothSocket bluetoothSocket, int state) {
             switch (state){
                 case ThomasPrinterManage.STATE_DISCONNECTED:
-                    System.out.println("");
+                    System.out.println(getString(R.string.disconnect));
                     break;
                 case ThomasPrinterManage.STATE_CONNECTING:
+                    System.out.println(getString(R.string.connecting));
                     break;
                 case ThomasPrinterManage.STATE_CONNECTED:
+                    System.out.println(getString(R.string.connected));
                     break;
                 case ThomasPrinterManage.STATE_CONNECTED_FAILED:
+                    System.out.println(getString(R.string.connect_failed));
                     break;
                 case ThomasPrinterManage.STATE_ADDRESS_ERROR:
+                    System.out.println(getString(R.string.address_error));
                     break;
                 case ThomasPrinterManage.STATE_NO_DEVICE:
+                    System.out.println(getString(R.string.no_device));
                     break;
                 case ThomasPrinterManage.STATE_SEND_SUCCESS:
+                    System.out.println(getString(R.string.send_success));
                     break;
                 case ThomasPrinterManage.STATE_SEND_FAILED:
+                    System.out.println(getString(R.string.send_failed));
                     break;
             }
         }
@@ -132,7 +138,7 @@ public class MainActivity extends AppCompatActivity {
         thermalPrinter.printAndFeedLine();
         thermalPrinter.putText(getTextByte("content"), FontSize.BIG, Alignment.RIGHT,false);
         thermalPrinter.printAndFeedLine();
-        thermalPrinter.putText(getTextByte("content"), FontSize.LARGER, Alignment.RIGHT,false);
+        thermalPrinter.putText(getTextByte("content"), FontSize.LARGER, Alignment.LEFT,false);
         thermalPrinter.printAndFeedLine();
         thermalPrinter.setUnderline(true);
         thermalPrinter.setText(getTextByte("content"));
